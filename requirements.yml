@@ -1,12 +1,113 @@
-name: ifcopenshell-binder
+name: BUIE-mybinder
 channels:
   - conda-forge
+  - defaults
 dependencies:
-- jupyterlab=3.1
-- jupyter-offlinenotebook=0.2
-# RTC
-- jupyterlab-link-share=0.2
-# Python Kernel
-- numpy
-- matplotlib
-- ifcopenshell
+  - aom=3.5.0=h63175ca_0
+  - boost-cpp=1.74.0=h9f4b32c_8
+  - bzip2=1.0.8=h8ffe710_4
+  - ca-certificates=2022.9.24=h5b45459_0
+  - certifi=2022.9.24=pyhd8ed1ab_0
+  - cgal-cpp=5.5=h3c2f9b9_0
+  - colorama=0.4.5=pyhd8ed1ab_0
+  - curl=7.83.1=h789b8ee_0
+  - double-conversion=3.2.0=h0e60522_0
+  - eigen=3.4.0=h2d74725_0
+  - expat=2.4.9=h1537add_0
+  - ffmpeg=4.4.2=gpl_h952562b_108
+  - font-ttf-dejavu-sans-mono=2.37=hab24e00_0
+  - font-ttf-inconsolata=3.000=h77eed37_0
+  - font-ttf-source-code-pro=2.038=h77eed37_0
+  - font-ttf-ubuntu=0.83=hab24e00_0
+  - fontconfig=2.14.0=h720f74d_1
+  - fonts-conda-ecosystem=1=0
+  - fonts-conda-forge=1=0
+  - freeimage=3.18.0=h064cf08_10
+  - freetype=2.12.1=h546665d_0
+  - gettext=0.19.8.1=h5728263_1009
+  - gl2ps=1.4.2=h0597ee9_0
+  - glew=2.1.0=h39d44d4_2
+  - glib=2.74.0=h12be248_0
+  - glib-tools=2.74.0=h12be248_0
+  - gst-plugins-base=1.20.3=h001b923_2
+  - gstreamer=1.20.3=h6b5321d_2
+  - hdf4=4.2.15=h0e5069d_4
+  - hdf5=1.12.2=nompi_h2a0e4a3_100
+  - icu=70.1=h0e60522_0
+  - ifcopenshell=v0.7.0a4=py39h79529e9_1
+  - imath=3.1.5=h12d4b20_0
+  - jpeg=9e=h8ffe710_2
+  - jsoncpp=1.9.5=h2d74725_1
+  - jxrlib=1.1=h8ffe710_2
+  - krb5=1.19.3=h1176d77_0
+  - lcms2=2.12=h2a16943_0
+  - lerc=4.0.0=h63175ca_0
+  - libclang=14.0.6=default_hf4acfee_0
+  - libclang13=14.0.6=default_h8992b79_0
+  - libcurl=7.83.1=h789b8ee_0
+  - libdeflate=1.14=hcfcfb64_0
+  - libffi=3.4.2=h8ffe710_5
+  - libglib=2.74.0=h79619a9_0
+  - libiconv=1.17=h8ffe710_0
+  - libnetcdf=4.8.1=nompi_h85765be_104
+  - libogg=1.3.4=h8ffe710_1
+  - libpng=1.6.38=h19919ed_0
+  - libraw=0.20.2=hee1bdec_1
+  - libsqlite=3.39.3=hcfcfb64_0
+  - libssh2=1.10.0=h680486a_3
+  - libtheora=1.1.1=h8d14728_1005
+  - libtiff=4.4.0=h8e97e67_4
+  - libvorbis=1.3.7=h0e60522_0
+  - libwebp-base=1.2.4=h8ffe710_0
+  - libxml2=2.9.14=hf5bbc77_4
+  - libzip=1.9.2=hfed4ece_1
+  - libzlib=1.2.12=hcfcfb64_3
+  - loguru=0.6.0=py39hcbf5309_1
+  - lz4-c=1.9.3=h8ffe710_1
+  - mpfr=4.1.0=h8d14728_1
+  - mpir=3.0.0=he025d50_1002
+  - occt=7.6.3=h79a78a5_0
+  - openexr=3.1.5=hab3b255_0
+  - openh264=2.3.1=h63175ca_1
+  - openjpeg=2.5.0=hc9384bd_1
+  - openssl=1.1.1q=h8ffe710_0
+  - pcre2=10.37=hdfff0fc_1
+  - pip=22.1.2=py39haa95532_0
+  - proj=9.0.1=h1cfcee9_1
+  - pugixml=1.11.4=h0e60522_0
+  - python=3.9.13=h6244533_1
+  - python_abi=3.9=2_cp39
+  - qt-main=5.15.6=hf0cf448_0
+  - rapidjson=1.1.0=ha925a31_1002
+  - setuptools=63.4.1=py39haa95532_0
+  - sqlite=3.39.3=h2bbff1b_0
+  - svt-av1=1.2.1=h0e60522_0
+  - tbb=2021.6.0=h91493d7_0
+  - tbb-devel=2021.6.0=h91493d7_0
+  - tzdata=2022c=h04d1e81_0
+  - ucrt=10.0.20348.0=h57928b3_0
+  - utfcpp=3.2.1=h57928b3_0
+  - vc=14.2=h21ff451_1
+  - vs2015_runtime=14.29.30139=h890b9b1_7
+  - vtk=9.1.0=qt_py39hca7f291_215
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - win32_setctime=1.1.0=pyhd8ed1ab_0
+  - wincertstore=0.2=py39haa95532_2
+  - x264=1!164.3095=h8ffe710_2
+  - x265=3.5=h2d74725_3
+  - xz=5.2.6=h8d14728_0
+  - zlib=1.2.12=hcfcfb64_3
+  - zstd=1.5.2=h7755175_4
+  - pip:
+    - contourpy==1.0.5
+    - cycler==0.11.0
+    - fonttools==4.37.3
+    - kiwisolver==1.4.4
+    - matplotlib==3.6.0
+    - numpy==1.23.3
+    - packaging==21.3
+    - pillow==9.2.0
+    - pyparsing==3.0.9
+    - python-dateutil==2.8.2
+    - six==1.16.0
+prefix: C:\Users\Sebastian Esser\anaconda3\envs\BUIE-mybinder
