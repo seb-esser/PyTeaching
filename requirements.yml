@@ -1,0 +1,11 @@
+name: ifcopenshell-binder
+channels:
+  - conda-forge
+dependencies:
+- jupyterlab=3.1
+- jupyter-offlinenotebook=0.2
+# RTC
+- jupyterlab-link-share=0.2
+# Python Kernel
+- numpy
+- matplotlib
