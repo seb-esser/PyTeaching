@@ -110,4 +110,4 @@ dependencies:
     - pyparsing==3.0.9
     - python-dateutil==2.8.2
     - six==1.16.0
-prefix: C:\Users\Sebastian Esser\anaconda3\envs\BUIE-mybinder
+
